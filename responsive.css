@@ -3,6 +3,10 @@
   .top-wrapper h1 {
     font-size: 32px;
   }
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
 }
 
 /* Untuk Smartphone */
