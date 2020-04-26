@@ -22,9 +22,11 @@ a {
 }
 
 .container {
-  max-width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* CSS untuk header. */
@@ -150,10 +152,76 @@ header {
 
 /* CSS untuk Bagian Extra 2 */
 .extra2-wrapper {
-  border-bottom: 1px solid #eee;
-  padding-bottom: 80px;
-  text-align: center;
+  background-color: #2d3e50;
+  background-position: right bottom;
+  color: #fff;
+  padding: 3rem!important;
+
+  width: 100%;
+  /* padding-right: 15px;
+  padding-left: 15px; */
+  margin-right: auto;
+  margin-left: auto;
+
+  box-sizing: border-box;
+
+  display: block;
 }
+.extra2-header {
+  margin-bottom: 1.5rem!important;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.extra2-headercontainer {
+  text-align: center!important;
+  margin-left: auto!important;
+  margin-right: auto!important;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px
+}
+.extra2-headercontainer h2 {
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.extra2-headercontainer p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.thanksto {
+  margin-top: 3rem!important;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.partner-logo {
+  margin-bottom: 3rem!important;
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.partner-logo img {
+  margin-left: auto!important;
+  margin-right: auto!important;
+  display: block!important;
+  max-width: 100%;
+  height: auto;
+  /* vertical-align: middle; */
+  border-style: none;
+}
+
 
 /* CSS untuk Footer */
 .footer {
