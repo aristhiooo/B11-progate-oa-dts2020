@@ -196,3 +196,30 @@ header {
   padding: 21px 0;
   display: none;
 }
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+.lesson-wrapper {
+  padding-bottom: 60px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+.lesson-icon {
+  position: relative;
+}
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #4c4242;
+}
+.lesson {
+  float: left;
+  width: 20%;
+}
