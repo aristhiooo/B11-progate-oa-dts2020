@@ -22,11 +22,9 @@ a {
 }
 
 .container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  max-width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 
 /* CSS untuk header. */
@@ -82,7 +80,7 @@ header {
 /* CSS untuk Bagian Utama */
 .top-wrapper {
   padding: 180px 0 100px 0;
-  background-image: url(https://aristhiooo.github.io/B11-progate-oa-dts2020/main_top.jpg);
+  background-image: url(file:///C:/Users/eleza/Desktop/Proj_01/B11-progate-oa-dts2020/images/main_b.jpg);
   background-size: cover;
   color: white;
   text-align: center;
@@ -119,6 +117,7 @@ header {
 
 .css {
   background-color: #3b5998;
+  margin-right: 10px;
 }
 
 .javascript {
@@ -150,6 +149,7 @@ header {
   text-align: center;
 }
 
+/* CSS untuk Bagian Extra 2 */
 /* CSS untuk Bagian Extra 2 */
 .extra2-wrapper {
   background-color: #2d3e50;
@@ -222,7 +222,6 @@ header {
   border-style: none;
 }
 
-
 /* CSS untuk Footer */
 .footer {
     margin: auto;
@@ -265,13 +264,22 @@ header {
   display: none;
 }
 
+/* Andri css */
 .heading {
-  padding-top: 80px;
+  padding-top: 50px;
   padding-bottom: 50px;
   color: #5f5d60;
 }
+.heading h2 {
+  font-weight: bold;
+  letter-spacing: 5px;
+  margin: 0 0 15px 0;
+  position: relative;
+  font-size: 50px;
+  text-transform: uppercase;
+}
 .lesson-wrapper {
-  padding-bottom: 60px;
+  padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
   background-color: #f7f7f7;
