@@ -31,4 +31,9 @@
   footer {
     text-align: center;
   }
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
 }
+
